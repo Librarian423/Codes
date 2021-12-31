@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.techtown.se_project05">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SE_project05"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".StudentBulletin_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".StudentBulletin"
+            android:exported="false" />
+        <activity
+            android:name=".Student_attendance"></activity>
+      <activity
+            android:name=".Student_attendance_add"
+            android:exported="false" />
+        <activity
+            android:name=".Student_schedule"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".StudentInit" />
+        <activity android:name=".StudentClass" />
+        <activity android:name=".ManagerInit" />
+        <activity android:name=".ManagerAddClass" />
+        <activity android:name=".ManagerFunc" />
+        <activity android:name=".ManagerAddStudent" />
+        <activity android:name=".ManagerDeleteClass" />
+        <activity android:name=".ManagerAddBulletin" />
+        <activity android:name=".ManagerCheckAttendance" />
+        <activity android:name=".StudentFunc"></activity>
+        <activity android:name=".ManagerAttendance"></activity>
+        <activity android:name=".ManagerAttendanceTemp"></activity>
+        <activity android:name="Bull"></activity>
+    </application>
+
+</manifest>

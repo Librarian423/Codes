@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_register"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="학생 아이디"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/stud_init_button1"
+        android:layout_width="318dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/student_initial_button1" />
+
+    <Button
+        android:id="@+id/stud_init_button2"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_width="318dp"
+        android:text="@string/student_initial_button2" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="로그아웃" />
+
+
+</LinearLayout>

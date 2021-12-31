@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_register"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_class"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="아이디"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/manager_func_button1"
+        android:layout_width="318dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="학생관리" />
+
+    <Button
+        android:id="@+id/manager_func_button2"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_width="318dp"
+        android:text="출결관리" />
+
+    <Button
+        android:id="@+id/manager_func_button3"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="공지등록"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/delete_class"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="수업 삭제" />
+        <Button
+            android:id="@+id/change_class"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="수업 변경" />
+    </LinearLayout>
+
+
+</LinearLayout>
